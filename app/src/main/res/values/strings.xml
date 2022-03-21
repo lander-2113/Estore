@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">E Store1</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="mno">Mobile No.</string>
+    <string name="pswd">Password</string>
+    <string name="usrname">User Name</string>
+
+    <string name="log_in">Log In</string>
+    <string name="takemetosignup">Create a new Account!</string>
+
+    <string name="sign_up">Sign up</string>
+
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+
+    <string name="nav_user_account">My Account</string>
+    <string name="nav_orders">My orders</string>
+    <string name="nav_support">Support</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_feedback">Give us feedback</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="log_out">Logout</string>
+
+    <string name="get_location">User location</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+
+        <EditText
+            android:id="@+id/sign_user_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:hint="@string/usrname"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/signfnametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/fname"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/sign_lnametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/lname"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/sign_pswdtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/pswd"
+            android:inputType="textPersonName|textWebPassword"
+            android:minHeight="48dp"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/sign_emailtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textPersonName|textEmailAddress"
+            android:minHeight="48dp"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/sign_mnotext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/mno"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
