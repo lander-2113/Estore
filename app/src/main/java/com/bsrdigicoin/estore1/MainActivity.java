@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), HomeActivity.class));
         finish();
         return;
+        /*
         String username = loginusername.getText().toString().trim();
         String password = loginpass.getText().toString().trim();
 
@@ -114,5 +115,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Both the fields are required",
                     Toast.LENGTH_SHORT).show();
         }
+
+         */
     }// function ends
 }
