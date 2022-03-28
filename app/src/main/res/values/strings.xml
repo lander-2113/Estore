@@ -26,4 +26,11 @@
     <string name="log_out">Logout</string>
 
     <string name="get_location">User location</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="land">Enter landmark</string>
+    <string name="btn_confirm">Confirm location</string>
+
+    <string name="houseno">House/Flat/Block no.</string>
+    <string name="direction">Direction to reach</string>
 </resources>

@@ -63,11 +63,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
     }
 
     public void user_login() {
+        startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+        finish();
+        return;
         String username = loginusername.getText().toString().trim();
         String password = loginpass.getText().toString().trim();
 
@@ -76,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onResponse(String response) {
                     //resetFields();
-
                     try{
                         JSONObject jsonObject = new JSONObject(response);
                         if(!jsonObject.getBoolean("error")) {
@@ -115,5 +115,4 @@ public class MainActivity extends AppCompatActivity {
                     Toast.LENGTH_SHORT).show();
         }
     }// function ends
-
 }

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="297dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textViewhouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/houseno" />
+    <EditText
+        android:id="@+id/hno_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="House/Flat/Block no."
+        android:text="Test Valuehouse"
+        android:inputType="text"
+        />
+    <TextView
+        android:id="@+id/land"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/land" />
+    <EditText
+        android:id="@+id/landmark_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Landmark"
+        android:text="landmark test"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/direction" />
+
+    <EditText
+        android:id="@+id/direction_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Directions"
+        android:text="Test Value direction"
+        android:gravity="top"
+        android:layout_weight="2"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:onClick="done"
+        android:text="@string/btn_confirm" />
+</LinearLayout>
